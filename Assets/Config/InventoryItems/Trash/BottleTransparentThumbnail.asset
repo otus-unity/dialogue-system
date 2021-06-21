@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2094bf01ccca86e40a6ba13af5ce014b, type: 3}
+  m_Name: BottleTransparentThumbnail
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 919132149155446097, guid: 90bba2613ac1fc744bd6bcbc6bf6db32, type: 3}
+  Icon: {fileID: 21300000, guid: d17417f89555ce84bbfea199efec30d1, type: 3}
+  iconSize: 512
+  iconPreviewBrightness: 1
+  iconPreviewOffset: {x: 0, y: 0, z: -2}
+  iconPreviewAngles: {x: 0, y: 0, z: 0}
+  iconPreviewPosition: {x: 0, y: -0.5, z: 0}
+  iconPreviewRotation: {x: -89.15, y: 81.44, z: 0}
+  iconPreviewScale: {x: 10.59, y: 10.59, z: 10.59}
+  iconBackgroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}

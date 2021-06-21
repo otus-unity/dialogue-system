@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2094bf01ccca86e40a6ba13af5ce014b, type: 3}
+  m_Name: ForkThumbnail
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 919132149155446097, guid: dff1113e4a3f10248ad92e1ee7ff4011, type: 3}
+  Icon: {fileID: 21300000, guid: 1c9d46a922d80584687ad2016c2ce391, type: 3}
+  iconSize: 512
+  iconPreviewBrightness: 1
+  iconPreviewOffset: {x: 0, y: 0, z: -2}
+  iconPreviewAngles: {x: 0, y: 0, z: 0}
+  iconPreviewPosition: {x: -0.04, y: -0.1, z: 0}
+  iconPreviewRotation: {x: -1.44, y: 4.56, z: -29.66}
+  iconPreviewScale: {x: 16.03, y: 16.03, z: 16.03}
+  iconBackgroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
