@@ -10,7 +10,7 @@ public abstract class AbstractInventory : MonoBehaviour, IInventory
         public int Count;
     }
 
-    public readonly IInventoryStorage Storage = new InventoryStorage();
+    public IInventoryStorage Storage { get; private set; } = new InventoryStorage();
 
     [SerializeField] InitialItem[] m_initialInventory;
 

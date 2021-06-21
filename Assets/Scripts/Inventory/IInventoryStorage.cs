@@ -1,11 +1,23 @@
 using System;
 using System.Collections.Generic;
 
+public struct InventoryStorageItem
+{
+    public InventoryItem item;
+    public int count;
+
+    public InventoryStorageItem(InventoryItem item, int count)
+    {
+        this.item = item;
+        this.count = count;
+    }
+}
+
 public interface IInventoryStorage
 {
     event Action OnChanged;
 
-    IEnumerable<(InventoryItem item, int count)> Items { get; }
+    IEnumerable<InventoryStorageItem> Items { get; }
 
     int CountOf(InventoryItem item);
 

@@ -31,9 +31,9 @@ public class InventoryStorage : IInventoryStorage
     public event Action OnChanged;
     public int Count => m_items.Count;
 
-    public IEnumerable<(InventoryItem item, int count)> Items { get {
+    public IEnumerable<InventoryStorageItem> Items { get {
             foreach (var it in m_items)
-                yield return (it.Key, it.Value);
+                yield return new InventoryStorageItem(it.Key, it.Value);
         } }
 
     public int CountOf(InventoryItem item)
