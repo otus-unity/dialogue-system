@@ -16,10 +16,6 @@ public class InventoryRow : MonoBehaviour, IPoolable<IMemoryPool>, IDisposable
 
     public int Count => m_icons.Count;
 
-    void Awake()
-    {
-    }
-
     public void Dispose()
     {
         if (m_pool != null) {

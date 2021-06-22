@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4146260619646788093}
   - component: {fileID: 4146260619646788092}
   - component: {fileID: 3487795431534994271}
+  - component: {fileID: 1087614989781892886}
   m_Layer: 0
   m_Name: ProjectContext
   m_TagString: Untagged
@@ -73,3 +74,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc360c8a6d03844f9999bb645bc4f84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1087614989781892886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4146260619646788083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797c92f2354c47d43a6b121df360790b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestStartedMessage: Quest Started
+  QuestCompletedMessage: Quest Completed
+  QuestFailedMessage: Quest Failed

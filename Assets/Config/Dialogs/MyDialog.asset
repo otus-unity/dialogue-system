@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 125abce4c4cb0fc40ab0c431edee9ee1, type: 3}
+  m_Name: MyDialog
+  m_EditorClassIdentifier: 
+  NextUniqueId: 6
+  EditorTransform:
+    Offset: {x: 583.8936, y: 124.42242}
+    Scale: 0.70000005
+  Nodes:
+  - UniqueId: 0
+    Bounds:
+      serializedVersion: 2
+      x: -494.42865
+      y: 45.000076
+      width: 295.71402
+      height: 220.00009
+    Text: Hello
+    IsPlayer: 1
+    AllowReuse: 1
+    NodeCondition: 0
+    ConditionQuest: {fileID: 0}
+    NodeAction: 0
+    ActionQuest: {fileID: 0}
+    NextIds: 0200000001000000
+  - UniqueId: 1
+    Bounds:
+      serializedVersion: 2
+      x: -261.57153
+      y: 440.71402
+      width: 210.00002
+      height: 277.14313
+    Text: Go away
+    IsPlayer: 1
+    AllowReuse: 1
+    NodeCondition: 0
+    ConditionQuest: {fileID: 0}
+    NodeAction: 0
+    ActionQuest: {fileID: 0}
+    NextIds: 
+  - UniqueId: 2
+    Bounds:
+      serializedVersion: 2
+      x: -550.1426
+      y: 453.57138
+      width: 205.7143
+      height: 244.2856
+    Text: Hi
+    IsPlayer: 0
+    AllowReuse: 1
+    NodeCondition: 0
+    ConditionQuest: {fileID: 0}
+    NodeAction: 0
+    ActionQuest: {fileID: 0}
+    NextIds: 
+  - UniqueId: 3
+    Bounds:
+      serializedVersion: 2
+      x: 85.57116
+      y: -50.71427
+      width: 221.4286
+      height: 221.4286
+    Text: Give me quest
+    IsPlayer: 1
+    AllowReuse: 1
+    NodeCondition: 0
+    ConditionQuest: {fileID: 0}
+    NodeAction: 0
+    ActionQuest: {fileID: 0}
+    NextIds: 04000000
+  - UniqueId: 4
+    Bounds:
+      serializedVersion: 2
+      x: 121.285515
+      y: 352.1429
+      width: 205.7143
+      height: 247.14288
+    Text: Bring me apples
+    IsPlayer: 0
+    AllowReuse: 1
+    NodeCondition: 0
+    ConditionQuest: {fileID: 0}
+    NodeAction: 1
+    ActionQuest: {fileID: 11400000, guid: edeeae0d2de0e094abd004c3b7c21fe8, type: 2}
+    NextIds: 
+  - UniqueId: 5
+    Bounds:
+      serializedVersion: 2
+      x: 387.2947
+      y: -59.174892
+      width: 200
+      height: 600
+    Text: Here are apples
+    IsPlayer: 1
+    AllowReuse: 1
+    NodeCondition: 1
+    ConditionQuest: {fileID: 11400000, guid: edeeae0d2de0e094abd004c3b7c21fe8, type: 2}
+    NodeAction: 0
+    ActionQuest: {fileID: 0}
+    NextIds: 
